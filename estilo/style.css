@@ -37,7 +37,7 @@ header .container li {
 }
 header .container a {
     text-decoration: none;
-    color: var(--cor-secundaria);
+    color: whitesmoke;
     background-color: var(--cor-principal);
     padding: 5px;
     border-radius: 4px;
@@ -56,8 +56,80 @@ section .container {
     margin-left: 20px;
     margin-right: 20px;
 }
-section #serviços .container > li {
+section .container li {
     display: inline;
 }
+section .container li img {
+    width: 260px;
+    height: 260px;
+    margin-left: 0px;
+}
+section .container .exames {
+    display: inline-block;
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+}
+section .container .exames p {
+    font-size: 20px;
+    font-family: var(--fonte-primaria);
+    text-align: center;
+    padding-top: 10px;
+}
+#contato .container {
+    display: block;
+}
+#contato .container h2 {
+    margin-bottom: 20px;
+}
+#contato .metodosdecontato {
+    display: flex;
+    justify-content: space-between;
+}
+form input, form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
 
-
+}
+form textarea {
+    resize: none;
+    height: 180px;
+}
+form textarea:focus {
+    outline-color: #293d72;
+}
+form button {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-weight: normal;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+form button:hover {
+    background-color:#9BB5BF;
+    cursor: pointer;
+}
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+.social-links a {
+    text-decoration: none;
+}
+#contato .social-links img {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+#contato .container .metodosdecontato h3 {
+    margin-bottom: 10px;
+}
+footer {
+    padding: 16px 0px;
+    background-color: #9BB5BF;
+    color: var(--cor-secundaria);
+    text-align: center;
+}
